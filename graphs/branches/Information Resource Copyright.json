@@ -1,129 +1,178 @@
 {
     "graph": [
         {
-            "author": " GCI", 
+            "author": " GCI",
             "cards": [
                 {
-                    "active": true, 
-                    "cardid": "08cfb2fb-963f-11e6-8a28-026d961c88e6", 
-                    "description": "Used to define legal privileges associated with an Information Resource.", 
-                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": "Describe the copyright for the information resource.", 
-                    "name": "Information Resource Copyright", 
-                    "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                    "sortorder": null, 
+                    "active": true,
+                    "cardid": "08cfb2fb-963f-11e6-8a28-026d961c88e6",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": "",
+                    "description": {
+                        "en": "Used to define legal privileges associated with an Information Resource."
+                    },
+                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Describe the copyright for the information resource."
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Information Resource Copyright"
+                    },
+                    "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                    "sortorder": null,
                     "visible": true
                 }
-            ], 
+            ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "08cfb2fb-963f-11e6-8a28-026d961c88e6", 
-                    "config": "{\"width\":\"100%\",\"placeholder\":\"Enter text\",\"label\":\"Copyright Description\"}", 
-                    "id": "1429ad60-b8f5-11e6-84a5-026d961c88e6", 
-                    "label": "Copyright Description", 
-                    "node_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                    "sortorder": 1, 
+                    "card_id": "08cfb2fb-963f-11e6-8a28-026d961c88e6",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": null
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Copyright Description",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "width": "100%"
+                    },
+                    "id": "1429ad60-b8f5-11e6-84a5-026d961c88e6",
+                    "label": {
+                        "en": "Copyright Description"
+                    },
+                    "node_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                    "sortorder": 1,
+                    "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
-                }, 
-                {
-                    "card_id": "08cfb2fb-963f-11e6-8a28-026d961c88e6", 
-                    "config": "{\"placeholder\":\"Select type\",\"options\":[],\"label\":\"Copyright Type\"}", 
-                    "id": "1429ad61-b8f5-11e6-84a5-026d961c88e6", 
-                    "label": "Copyright Type", 
-                    "node_id": "6b220cc7-963f-11e6-8a28-026d961c88e6", 
-                    "sortorder": 0, 
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
                 }
-            ], 
-            "deploymentdate": null, 
-            "deploymentfile": null, 
-            "description": "Used to define legal privileges associated with an Information Resource.", 
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": "Used to define legal privileges associated with an Information Resource."
+            },
             "edges": [
                 {
-                    "description": null, 
-                    "domainnode_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                    "edgeid": "6b220cc8-963f-11e6-8a28-026d961c88e6", 
-                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "description": null,
+                    "domainnode_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                    "edgeid": "6b220cc8-963f-11e6-8a28-026d961c88e6",
+                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "6b220cc7-963f-11e6-8a28-026d961c88e6"
                 }
-            ], 
-            "forms": [], 
-            "forms_x_cards": [], 
-            "functions": [], 
-            "graphid": "08cfb2f9-963f-11e6-8a28-026d961c88e6", 
-            "iconclass": "fa fa-copyright", 
-            "isactive": true, 
-            "isresource": false, 
-            "mapfeaturecolor": null, 
-            "maplinewidth": null, 
-            "mappointsize": null, 
-            "name": "Information Resource Copyright", 
+            ],
+            "functions_x_graphs": [],
+            "graphid": "08cfb2f9-963f-11e6-8a28-026d961c88e6",
+            "iconclass": "fa fa-copyright",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Information Resource Copyright"
+            },
             "nodegroups": [
                 {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
                     "parentnodegroup_id": null
                 }
-            ], 
+            ],
             "nodes": [
                 {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "", 
-                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6", 
-                    "is_collector": true, 
-                    "istopnode": true, 
-                    "name": "Copyright Description", 
-                    "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                    "nodeid": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right", 
-                    "parentproperty": ""
-                }, 
+                    "alias": "copyright_description",
+                    "config": {},
+                    "datatype": "string",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Copyright Description",
+                    "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                    "nodeid": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
                 {
+                    "alias": "copyright_type",
                     "config": {
                         "rdmCollection": null
-                    }, 
-                    "datatype": "concept-list", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6", 
-                    "is_collector": false, 
-                    "istopnode": false, 
-                    "name": "Copyright Type", 
-                    "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                    "nodeid": "6b220cc7-963f-11e6-8a28-026d961c88e6", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Represents a single node in a graph",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Copyright Type",
+                    "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                    "nodeid": "6b220cc7-963f-11e6-8a28-026d961c88e6",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
-            ], 
-            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
-            "reports": [], 
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
             "root": {
-                "config": null, 
-                "datatype": "string", 
-                "description": "", 
-                "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6", 
-                "is_collector": true, 
-                "istopnode": true, 
-                "name": "Copyright Description", 
-                "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                "nodeid": "08cfb2f8-963f-11e6-8a28-026d961c88e6", 
-                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right", 
-                "parentproperty": ""
-            }, 
-            "subtitle": "Used to define legal privileges associated with an Information Resource.", 
+                "alias": "copyright_description",
+                "config": {},
+                "datatype": "string",
+                "description": "",
+                "exportable": false,
+                "fieldname": "",
+                "graph_id": "08cfb2f9-963f-11e6-8a28-026d961c88e6",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Copyright Description",
+                "nodegroup_id": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                "nodeid": "08cfb2f8-963f-11e6-8a28-026d961c88e6",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "Used to define legal privileges associated with an Information Resource."
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ], 
-    "metadata": {
-        "db": "PostgreSQL 9.6.0 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "ff93bd9 2017-01-24 10:17:51 -0800", 
-        "os": "Linux", 
-        "os version": "4.4.0-45-generic"
-    }
+    ]
 }
